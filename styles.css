@@ -1,0 +1,107 @@
+/* 
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 1.75rem;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  width: 300px;
+  height: 500px;
+  margin: 0px;
+}
+
+.img {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    height: 100vh;
+  }
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+}
