@@ -8,6 +8,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
   font-size: 15px;
 }
 
@@ -44,7 +45,7 @@ p {
 
 .card-body {
   width: 300px;
-  height: 500px;
+  height: 450px;
   margin: 0px;
 }
 
@@ -79,12 +80,28 @@ p {
 
 .btn {
   background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
   height: 40px;
-  width: 150px;
-  border-radius: 15px;
+  width: 125px;
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 25px;
   margin-left: 50px;
-  margin-bottom: 50px;
   margin-top: 25px;
+}
+
+.btn1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
 }
 
 .attribution {
@@ -104,4 +121,9 @@ p {
     flex-wrap: wrap;
     height: 500px;
   }
+  .card-body {
+  height: 500px;
+}
+  .btn {
+  margin-top: 75px;
 }
